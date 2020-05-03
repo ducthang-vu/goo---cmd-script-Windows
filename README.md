@@ -13,7 +13,7 @@ goo.txt contains the following text: "mozilla,programiz,reddit,stackoverflow,twi
 ## Usage
 1 - Download the repository.  
 2 - Modify goo.bat by writing the full path of goo.py.  
-3 - Modify goo.txt at will, if necessary. Keywords must be separated only by commas (,).
+3 - Modify goo.txt at will, if necessary. Keywords must be separated only by commas (,).  
 4 - Open Command Prompt and write "goo" followed by an arbitrary number of arguments.  
 
 ## Contributing
