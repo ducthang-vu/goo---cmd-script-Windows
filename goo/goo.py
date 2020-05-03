@@ -3,6 +3,7 @@ import sys
 import webbrowser
 import requests
 import bs4
+import os
 
 
 def accepting(string, list_):
@@ -10,7 +11,7 @@ def accepting(string, list_):
 
 
 # getting accepted keywords from goo.txt
-text_path = r'' #full path of goo.txt inside the inverted commas, for example C:\Users\andrea\goo\goo.txt. 
+text_path = os.path.dirname(os.path.realpath(__file__)) + r'\goo.txt'
 accepted = open(text_path).read().split(',')
 
 # getting variables from cmd
