@@ -1,1 +1,1 @@
-economist,mozilla,programiz,reddit,stackoverflow,twitter,w3school,wiki
+mozilla,programiz,reddit,stackoverflow,twitter,w3school
