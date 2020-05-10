@@ -4,6 +4,7 @@ import webbrowser
 import requests
 import bs4
 import os
+import os.path
 
 
 def accepting(string, list_):
@@ -11,7 +12,7 @@ def accepting(string, list_):
 
 
 # getting accepted keywords from goo.txt
-text_path = os.path.dirname(os.path.realpath(__file__)) + r'\goo.txt'
+text_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'goo.txt')
 accepted = open(text_path).read().split(',')
 
 # getting variables from cmd
