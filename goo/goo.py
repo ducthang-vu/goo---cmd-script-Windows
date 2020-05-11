@@ -4,7 +4,6 @@ import webbrowser
 import requests
 import bs4
 import os
-import os.path
 
 
 def accepting(string, list_):
